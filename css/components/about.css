@@ -1,0 +1,25 @@
+.about p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 400;
+    margin-top: 10px;
+}
+
+.language{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.language ul{
+    display: flex;
+    gap: 50px;
+}
+
+.language ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}

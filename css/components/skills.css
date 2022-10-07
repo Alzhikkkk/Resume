@@ -1,0 +1,134 @@
+svg{
+    width: 114px;
+    height: 114px;
+    margin: 1em;
+}
+
+.bg{
+    fill: none;
+    stroke-width: 10px;
+    stroke: #1A2C34;
+}
+
+[class^="meter-"]{
+    fill: none;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.skills h3{
+    margin-right: 30px;
+}
+
+.skills-item{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meter-1{
+    stroke-dasharray: 360;
+    stroke-dashoffset: 120;
+    stroke: #bcd2ee;
+    animation: progress-1 1.5s ease-out;
+}
+
+.meter-2{
+    stroke-dasharray: 360;
+    stroke-dashoffset: 100;
+    stroke: #bcd2ee;
+    animation: progress-2 1.5s ease-out;
+}
+
+.meter-3{
+    stroke-dasharray: 360;
+    stroke-dashoffset: 120;
+    stroke: #bcd2ee;
+    animation: progress-1 1.5s ease-out;
+}
+
+.meter-4{
+    stroke-dasharray: 360;
+    stroke-dashoffset: 200;
+    stroke: #bcd2ee;
+    animation: progress-3 1.5s ease-out;
+}
+
+.meter-5{
+    stroke-dasharray: 360;
+    stroke-dashoffset: 180;
+    stroke: #bcd2ee;
+    animation: progress-4 1.5s ease-out;
+}
+
+.skill-show{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@keyframes progress-1 {
+    from{
+        stroke-dashoffset: 360;
+    }
+    to{
+        stroke-dashoffset: 120;
+    }
+}
+
+
+@keyframes progress-2 {
+    from{
+        stroke-dashoffset: 360;
+    }
+    to{
+        stroke-dashoffset: 100;
+    }
+}
+
+@keyframes progress-3 {
+    from{
+        stroke-dashoffset: 360;
+    }
+    to{
+        stroke-dashoffset: 200;
+    }
+}
+
+@keyframes progress-4 {
+    from{
+        stroke-dashoffset: 360;
+    }
+    to{
+        stroke-dashoffset: 180;
+    }
+}
+
+@media (max-width: 820px) {
+    .skills{
+        flex-direction: column;
+    }
+
+    .language{
+        flex-wrap: wrap;
+    }
+
+    .language ul{
+        flex-wrap: wrap;
+    }
+
+    .bio h3{
+        line-height: 50px;
+    }
+}

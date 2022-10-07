@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5% 0px;
+}
+
+.web img{
+    width: 30px;
+    height: 30px;
+}
+
+.web{
+    display: flex;
+    gap: 30px;
+}
+
+.footer h5{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    color: rgb(16, 17, 38);;
+}
+
+.footer-info--contact{
+    line-height: 30px;
+}

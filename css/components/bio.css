@@ -1,0 +1,70 @@
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.main{
+    background-color: #f5fbff;
+    padding-top: 50px;
+}
+
+.bio img{
+    height: 600px;
+}
+
+.bio h5{
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(16, 17, 38);;
+}
+
+.bio h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    color: rgb(16, 17, 38);
+}
+
+.bio a{
+    width: 150px;
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(16, 17, 38);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.quote{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(16, 17, 38);
+    padding: 5% 0;
+}
+
+.philosophy{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.philosophy h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+}
+
+.philosophy p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+}

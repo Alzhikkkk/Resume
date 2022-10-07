@@ -1,0 +1,39 @@
+.portfolio{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-item h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    color: rgb(16, 17, 38);
+}
+
+
+.portfolio-item p{
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+
+@media(max-width: 820px) {
+
+    .portfolio{
+        align-items: center;
+        justify-content: center;
+    }
+    .portfolio-item{
+        width: 60%;
+    }
+}
